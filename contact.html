@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Контакт</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/logo1.png"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+	<div id="header">
+		<div id="header-nav">
+			<h2>Адвокатска канцеларија Ѓоко Томоски</h2>
+			<a class="logo"><img src="images/logo1.png" style="width: 80px; height: 80px; display:flex; position:relative; right:480px; margin-top:10px"></a>
+			<div id="navigation">
+				<ul>
+					<li><a href="pocetna.html">Почетна</a></li>
+					<li><a href="uslugi.html">За нас</a></li>
+					<li><a href="contact.html">Контакт</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Испрати порака
+				</span>
+
+				<label class="label-input100" for="first-name">Вашето име и презиме *</label>
+				<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type first name">
+					<input id="first-name" class="input100" type="text" name="first-name" placeholder="Име">
+					<span class="focus-input100"></span>
+				</div>
+				<div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Type last name">
+					<input class="input100" type="text" name="last-name" placeholder="Презиме">
+					<span class="focus-input100"></span>
+				</div>
+
+				<label class="label-input100" for="email">Вашиот e-mail *</label>
+				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+					<input id="email" class="input100" type="text" name="email" placeholder="Пример. example@email.com">
+					<span class="focus-input100"></span>
+				</div>
+
+				<label class="label-input100" for="phone">Вашиот телефонски број</label>
+				<div class="wrap-input100">
+					<input id="phone" class="input100" type="text" name="phone" placeholder="Пример. +389 77/123-456">
+					<span class="focus-input100"></span>
+				</div>
+
+				<label class="label-input100" for="message">Порака *</label>
+				<div class="wrap-input100 validate-input" data-validate = "Message is required">
+					<textarea id="message" class="input100" name="message" placeholder="Напишете порака"></textarea>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn">
+						Испрати порака
+					</button>
+				</div>
+			</form>
+
+			<div class="contact100-more flex-col-c-m" style="background-image: url('images/bg-01.jpg');">
+				<div class="flex-w size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-map-marker"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Адреса
+						</span>
+
+						<span class="txt3">
+							Ул. Вардар бр.10 Струга, Република Северна Македонија
+						</span>
+					</div>
+				</div>
+
+				<div class="dis-flex size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-phone-handset"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Телефон
+						</span>
+
+						<span class="txt3">
+							070/232-903
+						</span>
+					</div>
+				</div>
+
+				<div class="dis-flex size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-envelope"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Email
+						</span>
+
+						<span class="txt3">
+							advtomoski@yahoo.com
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<script>
+		$(".selection-2").select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $('#dropDownSelect1')
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-23581568-13');
+	</script>
+	<footer>
+		<div id="deli">
+			<div class="logo">
+				<h3>Адвокатска канцеларија Ѓоко Томоски</h3>
+				<p>Не постои правен проблем кој не може да биде решен!</p>
+			</div>
+			
+			<ul class="menu">
+				<h3>Мени</h3>
+				<li><a href="#home.html">Почетна</a></li>
+				<li><a href="#zaNas.html">За нас</a></li>
+				<li><a href="#kontakt.html">Контакт</a></li>
+			</ul>
+			
+			<ul class="contact">
+				<h3>Контакт</h3>
+				<li>Адвокатска канцеларија Ѓоко Томоски</li>
+				<li>ул."Вардар" бр.10 Струга, Република Северна Македонија</li>
+				<li>Телефон: 070/232-903</li>
+				<li>Email: advtomoski@yahoo.com</li>
+			</ul>
+		</div>
+
+		<div class="box">
+			<p>Copyright &copy; 2020 Адвокатска канцеларија Ѓоко Томоски</p>
+			<p>Designed by Tomoska</p>
+		</div>
+	</footer>
+</body>
+</html>

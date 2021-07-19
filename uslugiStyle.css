@@ -1,0 +1,157 @@
+body {
+	margin: auto;
+	height: auto;
+}
+
+#header {
+	background-color: gray;
+	height: 150px;
+}
+
+#header-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#header-nav > h2 {
+	margin-left: 200px;
+	margin-bottom: 15px;
+}
+
+#header-nav > h2 {
+    color: white;
+	width: 500px;
+	margin-bottom: 5px;
+	font-size: 30px;
+	font-family: 'Abel', 'sans-serif';
+}
+
+#navigation > ul{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 60px;
+	margin-right: 55px;
+}
+
+#navigation > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#navigation > ul > li > a:hover{
+    color: black;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.one, .two {
+	width: 350px;
+	height: 350px;
+    /*padding: 50px;*/
+    line-height: 25px;
+    color: blue;
+}
+
+
+#info {
+	line-height: 30px;
+	padding: 15px;
+	background-color: lightgray;
+}
+
+#uslugi {
+	margin-bottom: 15px;
+}
+
+#listaUslugi {
+	/*margin-left: 15px;
+	margin-right: 15px;*/
+	height: 500px;
+	background-color: lightgray;
+	line-height: 30px;
+	/*margin-bottom: 20px;*/
+}
+
+#listaUslugi > h3 {
+	margin-left: 15px;
+}
+
+#infoPicture > h3 {
+	margin-left: 550px;
+	font-size: 25px;
+}
+
+#tretDel > h4 {
+	color: blue;
+	font-weight: bold;
+	font-size: 25px;
+	margin-left: 350px;
+}
+
+footer {
+	background-color: gray;
+}
+
+#deli {
+	display: flex;
+    justify-content: space-around;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logo, .menu, .contact {
+	width: 300px;
+    padding: 10px;
+    line-height: 40px;
+}
+
+.logo > h3, .menu > h3, .contact > h3 {
+	font-size: 25px;
+	color: black;
+	font-weight: bold;
+}
+
+.logo > p {
+	color: white;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.menu > li > a {
+	text-decoration: none;
+    color: white;
+    font-weight: 700;
+	font-size: 15px;
+}
+
+.contact > li {
+	text-decoration: none;
+    color: white;
+    font-weight: 700;
+	font-size: 15px;
+}
+
+.box {
+	background-color: darkgray;
+	display: flex;
+	justify-content: space-around;
+	padding: 15px;
+}
+
+.box > p {
+	font-size: 18px;
+	color:black;
+	font-family: 'Abel', 'sans-serif';
+}
+
